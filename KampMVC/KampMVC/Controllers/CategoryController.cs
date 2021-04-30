@@ -20,13 +20,20 @@ namespace KampMVC.Controllers
 
         public ActionResult GetCategoryList()
         {
-            var categoryvalues = cm.GetAllBLL();
-            return View(categoryvalues);
+            //var categoryvalues = cm.GetAllBLL();
+            return View();
         }
 
+        [HttpGet]
+        public ActionResult AddCategory()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult AddCategory(Category p)
         {
-            cm.CategoryAddBLL(p);
+            //cm.CategoryAddBLL(p);
             return RedirectToAction("GetCategoryList");
         }
     }
