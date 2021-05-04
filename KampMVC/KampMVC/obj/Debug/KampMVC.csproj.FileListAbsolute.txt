@@ -169,3 +169,5 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\vbc.exe.config
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\vbc.rsp
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\VBCSCompiler.exe
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\FluentValidation.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\FluentValidation.xml
