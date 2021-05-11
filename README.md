@@ -1,9 +1,10 @@
-# MVC PROJE KAMPI 
-Bu proje <strong>Murat Yücedağ</strong>'ın "Mvc Proje Kampı" konularına paralel olarak geliştirilmektedir.
+# MVC Proje Kampı
+Bu proje <a href="https://www.linkedin.com/in/murat-y%C3%BCceda%C4%9F-186933149"><strong>Murat Yücedağ</strong></a>'ın "<a href="https://www.youtube.com/playlist?list=PLKnjBHu2xXNNQJehhCg--CzQQMHXTsFAb"><strong>Mvc Proje Kampı</strong></a>" konularına paralel olarak geliştirilmektedir. <br>
+Kampa Katılmak İçin [Tıklayınız](https://www.youtube.com/playlist?list=PLKnjBHu2xXNNQJehhCg--CzQQMHXTsFAb) <br>
+Mvc Proje Kampı Tanıtım ve Soru-Cevap Yayını İçin [Tıklayınız](https://youtu.be/dgRjNDipuWk) <br>
+Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.gg/bFyd5VUEud) <br>
 
-Kampa Katılmak İçin [Tıklayınız](https://www.youtube.com/playlist?list=PLKnjBHu2xXNNQJehhCg--CzQQMHXTsFAb)
-
-# Proje İlerleyişi
+# Kamp Ders İlerleyişi
 ### Ders 1-20
    - Giriş yapıldı ve proje oluşturuldu.
    - View, Controller ve Layout kavramları üzerinde duruldu.
@@ -38,7 +39,7 @@ Kampa Katılmak İçin [Tıklayınız](https://www.youtube.com/playlist?list=PLK
    - Fluent Validation kavramına giriş yapıldı ve ilgili bileşenler kuruldu.
    - Validasyon işlemlerinden bahsedildi.
    - Html helper kapsamında "ValidationMessageFor" kullanımı gösterildi ve hata mesajları ilgili yerlerde gösterildi.
-#### Ders 33-36
+### Ders 33-36
    - Seçilen Admin panel teması indirilerek yüklendi.
    - Tema üzerinde temel düzenlemeler yapılarak css, js ve image bağlantıları düzeltildi.
    - Sol (sidebar) menü kısmında düzenleme ve Türkçeleştirme çalışmaları yapıldı.
