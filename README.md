@@ -39,7 +39,7 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Fluent Validation kavramına giriş yapıldı ve ilgili bileşenler kuruldu.
    - Validasyon işlemlerinden bahsedildi.
    - Html helper kapsamında "ValidationMessageFor" kullanımı gösterildi ve hata mesajları ilgili yerlerde gösterildi.
-#### Ders 33-36
+### Ders 33-36
    - Seçilen Admin panel teması indirilerek yüklendi.
    - Tema üzerinde temel düzenlemeler yapılarak css, js ve image bağlantıları düzeltildi.
    - Sol (sidebar) menü kısmında düzenleme ve Türkçeleştirme çalışmaları yapıldı.
