@@ -49,3 +49,8 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Kategori silme işlemi gerçekleştirildi.
    - Kategori güncelleme işlemi için güncellenecek kategori bilgilerinin güncelleme sayfasına taşınması işlemleri yapıldı.
    - Kategori güncelleme işlemine giriş yapıldı.
+### Ders 41-44
+   - Entity State komutları ile ekleme, güncelleme ve silme yapıları düzenlendi.  
+   - Yazar listeleme, ekleme, güncelleme ve silme yapıları yapıldı.
+   - Yazar profilleri listesi sayfası ayarlandı.
+   - Add migration işlemi ile database güncellendi ve yazar ekleme sayfası yapıldı.

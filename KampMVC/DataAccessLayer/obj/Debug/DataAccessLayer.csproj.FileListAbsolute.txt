@@ -32,3 +32,4 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAcce
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources

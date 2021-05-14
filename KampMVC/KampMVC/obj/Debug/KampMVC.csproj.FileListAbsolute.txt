@@ -129,6 +129,8 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\EntityLayer.dll.config
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\EntityFramework.xml
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\EntityFramework.SqlServer.dll
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\FluentValidation.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\FluentValidation.xml
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\csc.exe.config
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\csc.rsp
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\csi.exe
@@ -169,5 +171,3 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\vbc.exe.config
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\vbc.rsp
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\VBCSCompiler.exe
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\FluentValidation.dll
-C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\FluentValidation.xml
