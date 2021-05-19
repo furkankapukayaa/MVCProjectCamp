@@ -54,3 +54,13 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Yazar listeleme, ekleme, güncelleme ve silme yapıları yapıldı.
    - Yazar profilleri listesi sayfası ayarlandı.
    - Add migration işlemi ile database güncellendi ve yazar ekleme sayfası yapıldı.
+### Ders 45-48
+   - Yazar düzenleme metotdu ve sayfası eklendi.
+   - ValidationMessage yazıları kırmızı yapıldı.
+   - WriterTitle migration ile veri tabanına eklendi ve Yazar sayfasına entergre edildi.
+   - IHeadingService,Heading Manager ve HeadingController oluşturuldu.
+   - Başlık listeleme sayfası oluşturuldu.
+   - Yeni başlık girişi işlemleri yapıldı.
+   - Başlık işlemlerinde DropDownList ve ilişki yapıldı.
+   - Başlık ekleme sayfasına DropDownList entegresi yapıldı.
+   - Menülere link verildi.  
