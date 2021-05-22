@@ -63,4 +63,15 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Yeni başlık girişi işlemleri yapıldı.
    - Başlık işlemlerinde DropDownList ve ilişki yapıldı.
    - Başlık ekleme sayfasına DropDownList entegresi yapıldı.
-   - Menülere link verildi.  
+   - Menülere link verildi.
+### Ders 49-52
+   - Başlık sayfasına tema eklendi.
+   - Tema Türkçeleştirildi ve veriler entegre edildi.
+   - Kategoriler renklendirildi.
+   - Yazar resim boyutu arttırıldı.
+   - Yazarlara resimler eklendi.
+   - Başlık tarihi düzenlendi.
+   - WriterStatus eklendi.
+   - ContentByHeading Sayfası ekledi ve tema eklendi
+   - Content Service ve Managerler eklendi.
+   - İçerikleri getiren GetListByID metotu yazıldı.
