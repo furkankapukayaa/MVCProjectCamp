@@ -5,40 +5,51 @@
 }
 
 <br />
-<div class="d-flex mx-5 text-center">
 
-    <div class="card bg-dark" style="width: 18rem; margin-right:5px;">
-        <div class="card-body">
-            <h5 class="card-title">Toplam Kategori Sayısı</h5>
-            <p class="card-text" style="font-size:20px; font-weight:bold;">@ViewBag.CategoryCount</p>
+<div class="row">
+    <div class="col-md-3">
+        <div class="small-box bg-success">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.CategoryCount</sup></h3>
+                <sup style="font-size: 20px">Toplam Kategori Sayısı</sup>
+            </div>  <a href="#" class="small-box-footer"></a>
         </div>
     </div>
-
-    <div class="card bg-dark" style="width: 18rem; margin-right:5px;">
-        <div class="card-body">
-            <h5 class="card-title">Yazılım Kategorisine Ait Başlık Sayısı</h5>
-            <p class="card-text" style="font-size:20px; font-weight:bold;">@ViewBag.Heading</p>
+    <div class="col-md-3">
+        <div class="small-box bg-red">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.Heading</sup></h3>
+                <sup style="font-size: 20px">Yazılım Kategorisine Ait Başlık Sayısı</sup>
+            </div><a href="#" class="small-box-footer"></a>
         </div>
     </div>
-
-    <div class="card bg-dark" style="width: 18rem; margin-right:5px;">
-        <div class="card-body">
-            <h5 class="card-title">Adında 'A' Harfi Bulunan Yazar Sayısı</h5>
-            <p class="card-text" style="font-size:20px; font-weight:bold;">@ViewBag.Writer</p>
+    <div class="col-md-3">
+        <div class="small-box bg-purple">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.Writer</sup></h3>
+                <sup style="font-size: 20px">Adında 'A' Harfi Bulunan Yazar Sayısı</sup>
+            </div><a href="#" class="small-box-footer"></a>
         </div>
     </div>
-
-    <div class="card bg-dark" style="width: 18rem; margin-right:5px;">
-        <div class="card-body">
-            <h5 class="card-title">En Fazla Başlığa Sahip Kategori Adı</h5>
-            <p class="card-text" style="font-size:20px; font-weight:bold;">@ViewBag.HeadingMax</p>
+    <div class="col-md-3">
+        <div class="small-box bg-blue">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.HeadingMax</sup></h3>
+                <sup style="font-size: 20px">En Fazla Başlığa Sahip Kategori Adı</sup>
+            </div> <a href="#" class="small-box-footer"></a>
         </div>
     </div>
-
-    <div class="card bg-dark" style="width: 18rem; margin-right:5px;">
-        <div class="card-body">
-            <h5 class="card-title">Durumu True/False Olan Kategoriler Arasındaki Sayısal Fark</h5>
-            <p class="card-text" style="font-size:20px; font-weight:bold;">@ViewBag.Status</p>
+    <div class="col-md-3">
+        <div class="small-box bg-orange">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.Status</sup></h3> 
+                <sup style="font-size: 20px">Durumu True/False Olan Kategoriler Arasındaki Sayısal Fark</sup>
+            </div><a href="#" class="small-box-footer"></a>
         </div>
     </div>
 </div>
