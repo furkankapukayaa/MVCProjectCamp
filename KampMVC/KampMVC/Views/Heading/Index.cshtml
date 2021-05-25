@@ -8,8 +8,10 @@
 
 @{ string color = "";
     string checkStatus = "";
-    string statusColor = "";
+    string buttonStatusColor = "";
+    string badgeStatusColor = "";
     string headingStatus = "";
+    string iconStatus = "";
 }
 
 <!DOCTYPE html>
@@ -103,15 +105,19 @@
                                     @switch (item.HeadingStatus)
                                     {
                                         case true:
-                                            statusColor = "success";
+                                            badgeStatusColor = "badge badge-success";
+                                            buttonStatusColor = "btn btn-danger";
                                             headingStatus = "Aktif";
+                                            iconStatus = "fas fa-eye-slash";
                                             break;
                                         case false:
-                                            statusColor = "danger";
+                                            badgeStatusColor = "badge badge-danger";
+                                            buttonStatusColor = "btn btn-success";
                                             headingStatus = "Pasif";
+                                            iconStatus = "fas fa-eye";
                                             break;
                                     }
-                                    <span class="badge badge-@statusColor">@headingStatus</span>
+                                    <span class="@badgeStatusColor">@headingStatus</span>
                                 </td>
                                 <td class="project-state">
                                     <span class="@color">@item.Category.CategoryName</span>
@@ -127,8 +133,8 @@
                                         </i>
                                         Düzenle
                                     </a>
-                                    <a class="btn btn-@statusColor btn-sm" href="/Heading/DeleteHeading/@item.HeadingID">
-                                        <i class="fas fa-trash">
+                                    <a class="@buttonStatusColor btn-sm" href="/Heading/DeleteHeading/@item.HeadingID">
+                                        <i class="@iconStatus">
                                         </i>
                                         @if (item.HeadingStatus == true)
                                         {
