@@ -7,8 +7,9 @@
 }
 
 @{ string color = "";
-   string checkStatus = "";
-   string statusColor = "";
+    string checkStatus = "";
+    string statusColor = "";
+    string headingStatus = "";
 }
 
 <!DOCTYPE html>
@@ -103,12 +104,14 @@
                                     {
                                         case true:
                                             statusColor = "success";
+                                            headingStatus = "Aktif";
                                             break;
                                         case false:
                                             statusColor = "danger";
+                                            headingStatus = "Pasif";
                                             break;
                                     }
-                                    <span class="badge badge-@statusColor">@item.HeadingStatus</span>
+                                    <span class="badge badge-@statusColor">@headingStatus</span>
                                 </td>
                                 <td class="project-state">
                                     <span class="@color">@item.Category.CategoryName</span>
