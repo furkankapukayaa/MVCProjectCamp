@@ -36,7 +36,7 @@ namespace BusinessLayer.Concrete
 
         public void HeadingDelete(Heading heading)
         {
-            _headingDAL.Delete(heading);
+            _headingDAL.Update(heading);
         }
 
         public void HeadingUpdate(Heading heading)

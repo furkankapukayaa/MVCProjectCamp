@@ -36,3 +36,5 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAcce
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_add.resources
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagesizechange.resources
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_addstatus.resources
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentstatusadd.resources
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headingstatusadd.resources

@@ -9,43 +9,38 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class ContentManager : IContentService
+    public class AboutManager : IAboutService
     {
-        IContentDAL _contentDAL;
+        IAboutDAL _aboutDAL;
 
-        public ContentManager(IContentDAL contentDAL)
+        public AboutManager(IAboutDAL aboutDAL)
         {
-            _contentDAL = contentDAL;
+            _aboutDAL = aboutDAL;
         }
 
-        public void ContentAddBL(Content content)
+        public void AboutAddBL(About about)
         {
             throw new NotImplementedException();
         }
 
-        public void ContentDelete(Content content)
+        public void AboutDelete(About about)
         {
             throw new NotImplementedException();
         }
 
-        public void ContentUpdate(Content content)
+        public void AboutUpdate(About about)
         {
             throw new NotImplementedException();
         }
 
-        public Content GetById(int id)
+        public About GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Content> GetList()
+        public List<About> GetList()
         {
             throw new NotImplementedException();
-        }
-
-        public List<Content> GetListByHeadingID(int id)
-        {
-            return _contentDAL.List(x => x.HeadingID == id);
         }
     }
 }

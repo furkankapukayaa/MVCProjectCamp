@@ -75,3 +75,10 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - ContentByHeading Sayfası ekledi ve tema eklendi
    - Content Service ve Managerler eklendi.
    - İçerikleri getiren GetListByID metotu yazıldı.
+### Ders 53-56
+   - ContentByHeading sayfası enteglereleri yapıldı.
+   - ContentByHeading sayfasında başlıklara dair içerikler getirildi.
+   - ContentStatus eklendi.
+   - Başlık isim ve kategori düzenleme işlemleri yapıldı.
+   - Başlıkların aktif pasif özellikleri yapıldı.
+   - Hakkımızda sayfası yapıldı ve popup eklendi.
