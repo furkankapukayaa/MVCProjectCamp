@@ -82,3 +82,8 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Başlık isim ve kategori düzenleme işlemleri yapıldı.
    - Başlıkların aktif pasif özellikleri yapıldı.
    - Hakkımızda sayfası yapıldı ve popup eklendi.
+### Ders 57-60
+   - Hakkımda sayfası işlemleri bitirildi.
+   - Mesajlar sayfası yapıldı. Tema entegre edildi.
+   - Mesajların listelenmesi yapıldı.
+   - Mesajların detaylarının görülmesi yapıldı.
