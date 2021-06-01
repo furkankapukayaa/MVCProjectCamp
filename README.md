@@ -87,3 +87,8 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Mesajlar sayfası yapıldı. Tema entegre edildi.
    - Mesajların listelenmesi yapıldı.
    - Mesajların detaylarının görülmesi yapıldı.
+### Ders 61-64
+   - Mesajlar sınıfı işlemleri yapıldı.
+   - Mesaj Controller ve Admin mesaj işlemleri yapıldı.
+   - Yeni mesaj gönderme sayfası yapıldı.
+   - Yeni mesaj gönderme sayfası işlemleri bitirildi.

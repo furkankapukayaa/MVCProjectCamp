@@ -38,3 +38,4 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAcce
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_addstatus.resources
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentstatusadd.resources
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headingstatusadd.resources
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_message_class.resources
