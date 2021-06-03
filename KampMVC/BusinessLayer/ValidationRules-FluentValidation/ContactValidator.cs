@@ -20,6 +20,7 @@ namespace BusinessLayer.ValidationRules_FluentValidation
             RuleFor(x => x.Message).NotEmpty().WithMessage("Mesaj Kısmını Boş Geçemezsiniz.");
             RuleFor(x => x.Message).MinimumLength(10).WithMessage("En Az 10 Karakter Girişi Yapın.");
             RuleFor(x => x.Message).MaximumLength(250).WithMessage("En Fazla 250 Karakter Girişi Yapın.");
+            RuleFor(c => c.UserMail).EmailAddress().WithMessage("Mail Adresi Türünde Olmalıdır.");
         }
     }
 }
