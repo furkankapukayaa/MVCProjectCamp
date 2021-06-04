@@ -30,15 +30,18 @@ namespace KampMVC.Controllers
 
         public PartialViewResult ContactMenuPartial()
         {
-            var receiverMail = _Context.Messages.Count(m => m.ReceiverMail == "furkan@gmail.com").ToString();
+            var receiverMail = _Context.Messages.Count(x => x.ReceiverMail == "furkan@gmail.com").ToString();
             ViewBag.receiverMail = receiverMail;
 
-            var senderMail = _Context.Messages.Count(m => m.SenderMail == "furkan@gmail.com").ToString();
+            var senderMail = _Context.Messages.Count(x => x.SenderMail == "furkan@gmail.com").ToString();
             ViewBag.senderMail = senderMail;
 
             var contact = _Context.Contacts.Count().ToString();
             ViewBag.contact = contact;
-            
+
+            var draft = _Context.Messages.Count(x => x.isDraft == true).ToString();
+            ViewBag.draft = draft;
+
             return PartialView();
         }
     }

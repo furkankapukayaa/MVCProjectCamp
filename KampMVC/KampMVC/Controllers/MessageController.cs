@@ -48,24 +48,62 @@ namespace KampMVC.Controllers
         }
 
         [HttpPost]
-        public ActionResult NewMessage(Message p)
+        public ActionResult NewMessage(Message p, string button)
         {
-            ValidationResult results = messagevalidator.Validate(p);
-            if (results.IsValid)
+            ValidationResult results = new ValidationResult();
+            if (button == "draft")
             {
-                p.MessageDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-                p.SenderMail = "furkan@gmail.com";
-                mm.MessageAdd(p);
-                return RedirectToAction("Sendbox");
-            }
-            else
-            {
-                foreach (var item in results.Errors)
+
+                results = messagevalidator.Validate(p);
+                if (results.IsValid)
                 {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                    p.MessageDate = DateTime.Now;
+                    p.SenderMail = "furkan@gmail.com";
+                    p.isDraft = true;
+                    mm.MessageAdd(p);
+                    return RedirectToAction("Draft");
+                }
+                else
+                {
+                    foreach (var item in results.Errors)
+                    {
+                        ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                    }
+                }
+            }
+            else if (button == "save")
+            {
+                results = messagevalidator.Validate(p);
+                if (results.IsValid)
+                {
+                    p.MessageDate = DateTime.Now;
+                    p.SenderMail = "furkan@gmail.com";
+                    p.isDraft = false;
+                    mm.MessageAdd(p);
+                    return RedirectToAction("SendBox");
+                }
+                else
+                {
+                    foreach (var item in results.Errors)
+                    {
+                        ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                    }
                 }
             }
             return View();
+        }
+
+        public ActionResult Draft()
+        {
+            var sendList = mm.GetListSendbox();
+            var draftList = sendList.FindAll(x => x.isDraft == true);
+            return View(draftList);
+        }
+
+        public ActionResult GetDraftMessageDetails(int id)
+        {
+            var Values = mm.GetById(id);
+            return View(Values);
         }
     }
 }

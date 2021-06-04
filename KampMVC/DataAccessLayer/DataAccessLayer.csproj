@@ -112,6 +112,10 @@
     <Compile Include="Migrations\202106041406450_mig_add_imagefile.designer.cs">
       <DependentUpon>202106041406450_mig_add_imagefile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106041505093_mig_message_isDraft.cs" />
+    <Compile Include="Migrations\202106041505093_mig_message_isDraft.designer.cs">
+      <DependentUpon>202106041505093_mig_message_isDraft.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -155,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106041406450_mig_add_imagefile.resx">
       <DependentUpon>202106041406450_mig_add_imagefile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106041505093_mig_message_isDraft.resx">
+      <DependentUpon>202106041505093_mig_message_isDraft.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
