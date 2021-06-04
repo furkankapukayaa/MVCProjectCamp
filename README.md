@@ -92,3 +92,8 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Mesaj Controller ve Admin mesaj işlemleri yapıldı.
    - Yeni mesaj gönderme sayfası yapıldı.
    - Yeni mesaj gönderme sayfası işlemleri bitirildi.
+### Ders 65-68
+   - Mesaj sayfası revizeleri yapıldı.
+   - Mesaj sayfası işlemleri tamamlandı.
+   - 404 Hata sayfasu yapıldı.
+   - Galeri yapıldı.

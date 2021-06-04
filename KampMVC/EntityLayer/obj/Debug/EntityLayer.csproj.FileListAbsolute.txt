@@ -17,7 +17,6 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\EntityFramew
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\EntityFramework.xml
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.dll
