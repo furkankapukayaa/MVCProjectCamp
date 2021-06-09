@@ -80,7 +80,7 @@ namespace KampMVC.Controllers
                     p.SenderMail = "furkan@gmail.com";
                     p.isDraft = false;
                     mm.MessageAdd(p);
-                    return RedirectToAction("SendBox");
+                    return RedirectToAction("Sendbox");
                 }
                 else
                 {

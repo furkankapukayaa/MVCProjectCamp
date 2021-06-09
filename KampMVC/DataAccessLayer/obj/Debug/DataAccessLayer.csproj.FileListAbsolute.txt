@@ -42,3 +42,15 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAcce
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactadddate.resources
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_imagefile.resources
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_isDraft.resources
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.Mvc.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.WebPages.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.Razor.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.Mvc.xml
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.WebPages.xml
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.Razor.xml
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_allowhtml.resources
