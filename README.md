@@ -97,3 +97,8 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Mesaj sayfası işlemleri tamamlandı.
    - 404 Hata sayfasu yapıldı.
    - Galeri yapıldı.
+### Ders 69-72
+   - Admin login sayfası eklendi, tema eklendi
+   - Admin login işlemleri yapıldı.
+   - Authentication ve Session işlemleri yapıldı.
+   - Rolleme işlemleri yapıldı.
