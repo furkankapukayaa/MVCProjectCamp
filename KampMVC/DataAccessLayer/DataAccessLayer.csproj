@@ -60,6 +60,7 @@
     <Compile Include="Abstract\IImageFileDAL.cs" />
     <Compile Include="Abstract\IMessageDAL.cs" />
     <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Abstract\ITalentCardDal.cs" />
     <Compile Include="Abstract\IWriterDAL.cs" />
     <Compile Include="Concrete\Context.cs" />
     <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="EntityFramework\EFHeadingDAL.cs" />
     <Compile Include="EntityFramework\EFImageFileDAL.cs" />
     <Compile Include="EntityFramework\EFMessageDAL.cs" />
+    <Compile Include="EntityFramework\EfTalentCardDal.cs" />
     <Compile Include="EntityFramework\EFWriterDAL.cs" />
     <Compile Include="Migrations\202104250254335_mig1.cs" />
     <Compile Include="Migrations\202104250254335_mig1.designer.cs">
@@ -130,6 +132,10 @@
     <Compile Include="Migrations\202106191110143_mig_about_status.designer.cs">
       <DependentUpon>202106191110143_mig_about_status.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106191205165_talentcard.cs" />
+    <Compile Include="Migrations\202106191205165_talentcard.designer.cs">
+      <DependentUpon>202106191205165_talentcard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106191110143_mig_about_status.resx">
       <DependentUpon>202106191110143_mig_about_status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106191205165_talentcard.resx">
+      <DependentUpon>202106191205165_talentcard.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

@@ -40,5 +40,11 @@ namespace KampMVC.Controllers
             ViewBag.ErrorMessage = "Kullanıcı Adı veya Şifre Yanlış";
             return View();
         }
+
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Index", "Login");
+        }
     }
 }
