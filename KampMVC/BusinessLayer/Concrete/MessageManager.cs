@@ -23,6 +23,11 @@ namespace BusinessLayer.Concrete
             return _messageDAL.Get(x => x.MessageID == id);
         }
 
+        public List<Message> GetList()
+        {
+            return _messageDAL.List(x => x.ReceiverMail == "furkan@gmail.com").Where(x => x.IsRead == true).ToList();
+        }
+
         public List<Message> GetListInbox()
         {
             return _messageDAL.List(x => x.ReceiverMail == "furkan@gmail.com");
@@ -33,6 +38,11 @@ namespace BusinessLayer.Concrete
             return _messageDAL.List(x => x.SenderMail == "furkan@gmail.com");
         }
 
+        public List<Message> GetListUnRead()
+        {
+            return _messageDAL.List(x => x.ReceiverMail == "furkan@gmail.com").Where(x => x.IsRead == false).ToList();
+        }
+
         public void MessageAdd(Message message)
         {
             _messageDAL.Insert(message);
@@ -40,12 +50,12 @@ namespace BusinessLayer.Concrete
 
         public void MessageDelete(Message message)
         {
-            throw new NotImplementedException();
+            _messageDAL.Delete(message);
         }
 
         public void MessageUpdate(Message message)
         {
-            throw new NotImplementedException();
+            _messageDAL.Update(message);
         }
     }
 }

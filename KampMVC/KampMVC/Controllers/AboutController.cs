@@ -36,5 +36,21 @@ namespace KampMVC.Controllers
         {
             return PartialView();
         }
+
+        public ActionResult AktifveyaPasifDurum(int id)
+        {
+            var aboutValue = abm.GetById(id);
+
+            if (aboutValue.AboutStatus == true)
+            {
+                aboutValue.AboutStatus = false;
+            }
+            else
+            {
+                aboutValue.AboutStatus = true;
+            }
+            abm.AboutUpdate(aboutValue);
+            return RedirectToAction("Index");
+        }
     }
 }

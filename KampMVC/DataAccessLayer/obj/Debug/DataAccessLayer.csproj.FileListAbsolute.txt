@@ -55,3 +55,4 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.W
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_allowhtml.resources
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin_table.resources
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_about_status.resources

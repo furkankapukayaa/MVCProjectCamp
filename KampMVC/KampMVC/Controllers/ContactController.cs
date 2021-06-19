@@ -15,6 +15,7 @@ namespace KampMVC.Controllers
         // GET: Contact
         Context _Context = new Context();
         ContactManager cm = new ContactManager(new EFContactDAL());
+        MessageManager mm = new MessageManager(new EFMessageDAL());
         ContactValidator cv = new ContactValidator();
         public ActionResult Index()
         {
@@ -41,6 +42,12 @@ namespace KampMVC.Controllers
 
             var draft = _Context.Messages.Count(x => x.isDraft == true).ToString();
             ViewBag.draft = draft;
+
+            var readMessage = mm.GetList().Count();
+            ViewBag.readMessage = readMessage;
+
+            var unReadMessage = mm.GetListUnRead().Count();
+            ViewBag.unReadMessage = unReadMessage;
 
             return PartialView();
         }
