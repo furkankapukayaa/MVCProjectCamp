@@ -2506,6 +2506,12 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Task Pictures\Admin Bilgileri Hashleme.png" />
+    <Content Include="Task Pictures\Gelen Kutusu Mesaj Bilgisi.png" />
+    <Content Include="Task Pictures\Hakkımızda Aktif-Pasif.png" />
+    <Content Include="Task Pictures\Okunmamış Mesajlar.png" />
+    <Content Include="Task Pictures\Okunmuş Mesajlar.png" />
+    <Content Include="Task Pictures\Yetenek Kartı.png" />
     <Content Include="Views\Statistics\statistics.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
