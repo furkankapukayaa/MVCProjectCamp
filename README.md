@@ -102,3 +102,8 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Admin login işlemleri yapıldı.
    - Authentication ve Session işlemleri yapıldı.
    - Rolleme işlemleri yapıldı.
+### Ders 73-76
+   - Yazar layout oluşturuldu.
+   - Yazar başlık işlemleri yapıldı.
+   - Yazar mesaj işlemleri yapıldı.
+   - Yazarın yazığı yazılar gösterildi.
