@@ -107,3 +107,9 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Yazar başlık işlemleri yapıldı.
    - Yazar mesaj işlemleri yapıldı.
    - Yazarın yazığı yazılar gösterildi.
+### Ders 77-80
+   - Writer giriş işlemleri yapıldı.
+   - Writer girişe recaptcha eklendi.
+   - Session ile bilgi taşıma işlemi yapıldı.
+   - Session Allow Anonymous ile yetki-görüntüleme ayarlandı.
+   - Oturum başlık yönetimi yapıldı.
