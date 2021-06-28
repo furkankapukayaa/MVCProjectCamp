@@ -98,7 +98,7 @@ namespace KampMVC.Controllers
         public ActionResult WriterLogOut()
         {
             FormsAuthentication.SignOut();
-            return RedirectToAction("WriterLogin");
+            return RedirectToAction("Default", "Headings");
         }
     }
 }

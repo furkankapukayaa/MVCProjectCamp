@@ -2,7 +2,7 @@
 @model List<Heading>
 
 @{
-    ViewBag.Title = "MyHeading";
+    ViewBag.Title = "AllHeading";
     Layout = "~/Views/Shared/_WriterLayout.cshtml";
 }
 
@@ -80,7 +80,7 @@
                                         </li>
                                     </ul>
                                 </td>
-                              
+
                                 <td class="project-state">
                                     <span class="@color">@item.Category.CategoryName</span>
                                 </td>
@@ -90,17 +90,11 @@
                                         </i>
                                         Yazılar
                                     </a>
-                                    <a class="btn btn-info btn-sm" href="/WriterPanel/EditHeading/@item.HeadingID">
+                                    <a class="btn btn-info btn-sm" href="/WriterPanelContent/AddContent/@item.HeadingID">
                                         <i class="fas fa-pencil-alt">
                                         </i>
-                                        Düzenle
-                                    </a> 
-                                    <a class="btn btn-danger btn-sm" href="/WriterPanel/DeleteHeading/@item.HeadingID">
-                                        <i class="fas fa-trash">
-                                        </i>
-                                        Sil
+                                        Bu Başlığa Yaz
                                     </a>
-                                
                                 </td>
                             </tr>
                         }
@@ -113,4 +107,5 @@
     </section>
 </body>
 </html>
-<a href="/WriterPanel/NewHeading/" class="btn btn-success">Yeni Başlık Girişi</a>
+
+

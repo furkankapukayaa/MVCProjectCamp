@@ -113,3 +113,8 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Session ile bilgi taşıma işlemi yapıldı.
    - Session Allow Anonymous ile yetki-görüntüleme ayarlandı.
    - Oturum başlık yönetimi yapıldı.
+### Ders 81-84
+   - Vitrin sayfası yapıldı
+   - Vitrin sayfasında tüm başlıklar listelendi.
+   - Başlıklara göre yazılar listelendi.
+   - Yeni yazı girişi eklendi.

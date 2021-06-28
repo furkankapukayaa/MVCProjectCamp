@@ -83,5 +83,11 @@ namespace KampMVC.Controllers
             hm.HeadingDelete(headingvalue);
             return RedirectToAction("MyHeading");
         }
+
+        public ActionResult AllHeading()
+        {
+            var allheadinglist = hm.GetList();
+            return View(allheadinglist);
+        }
     }
 }
