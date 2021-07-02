@@ -127,3 +127,9 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Vitrin eklendi.
    - Vitrin düzenlemeleri yapıldı.
    - Yazılarda arama işlemleri yapıldı.
+### Ders 93-96
+   - IFrame eklendi.
+   - Yazar görselleri düzeltildi.
+   - Google chartlar eklendi.
+   - Raporlama sayfası oluşturuldu.
+   - Yetkilendirme düzenlemelerinin ilk kısmı yapıldı.
