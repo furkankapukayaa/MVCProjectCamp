@@ -17,15 +17,15 @@ namespace KampMVC.Controllers
 
         MessageManager mm = new MessageManager(new EFMessageDAL());
         MessageValidator messagevalidator = new MessageValidator();
-        public ActionResult Inbox()
+        public ActionResult Inbox(string p)
         {
-            var messagelist = mm.GetListInbox();
+            var messagelist = mm.GetListInbox(p);
             return View(messagelist);
         }
 
-        public ActionResult Sendbox()
+        public ActionResult Sendbox(string p)
         {
-            var messagelist = mm.GetListSendbox();
+            var messagelist = mm.GetListSendbox(p);
             return View(messagelist);
         }
 
@@ -93,9 +93,9 @@ namespace KampMVC.Controllers
             return View();
         }
 
-        public ActionResult Draft()
+        public ActionResult Draft(string p)
         {
-            var sendList = mm.GetListSendbox();
+            var sendList = mm.GetListSendbox(p);
             var draftList = sendList.FindAll(x => x.isDraft == true);
             return View(draftList);
         }

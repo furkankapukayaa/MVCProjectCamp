@@ -21,7 +21,6 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.dll
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.pdb
-C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\System.Web.Helpers.dll
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\System.Web.Mvc.dll

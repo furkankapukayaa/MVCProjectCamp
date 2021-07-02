@@ -7,6 +7,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
+using PagedList.Mvc;
+using FluentValidation.Results;
+using BusinessLayer.ValidationRules_FluentValidation;
 
 namespace KampMVC.Controllers
 {
@@ -15,9 +19,35 @@ namespace KampMVC.Controllers
         // GET: WriterPanel
         HeadingManager hm = new HeadingManager(new EFHeadingDAL());
         CategoryManager cm = new CategoryManager(new EFCategoryDAL());
+        WriterManager wm = new WriterManager(new EFWriterDAL());
+        WriterValidator writervalidator = new WriterValidator();
         Context c = new Context();
-        public ActionResult WriterProfile()
+
+        [HttpGet]
+        public ActionResult WriterProfile(int id = 0)
         {
+            string p = (string)Session["WriterMail"];
+            id = c.Writers.Where(x => x.WriterMail == p).Select(y => y.WriterID).FirstOrDefault();
+            var writervalue = wm.GetById(id);
+            return View(writervalue);
+        }
+
+        [HttpPost]
+        public ActionResult WriterProfile(Writer p)
+        {
+            ValidationResult results = writervalidator.Validate(p);
+            if (results.IsValid)
+            {
+                wm.WriterUpdate(p);
+                return RedirectToAction("WriterProfile","WriterPanel");
+            }
+            else
+            {
+                foreach (var item in results.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+            }
             return View();
         }
 
@@ -84,9 +114,9 @@ namespace KampMVC.Controllers
             return RedirectToAction("MyHeading");
         }
 
-        public ActionResult AllHeading()
+        public ActionResult AllHeading(int p = 1)
         {
-            var allheadinglist = hm.GetList();
+            var allheadinglist = hm.GetList().ToPagedList(p, 4);
             return View(allheadinglist);
         }
     }

@@ -1,4 +1,6 @@
-﻿using DataAccessLayer.Concrete;
+﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Newtonsoft.Json;
 using System;
@@ -17,6 +19,8 @@ namespace KampMVC.Controllers
     public class LoginController : Controller
     {
         // GET: Login
+        WriterLoginManager wm = new WriterLoginManager(new EFWriterDAL());
+
 
         [HttpGet]
         public ActionResult Index()
@@ -53,7 +57,7 @@ namespace KampMVC.Controllers
         [HttpPost]
         public ActionResult WriterLogin(Writer p)
         {
-             var response = Request["g-recaptcha-response"];
+            var response = Request["g-recaptcha-response"];
             const string secret = "6LfHFTwbAAAAAB53V5ZcixAgVCi2aTXIuF-eLxF9";
             var client = new WebClient();
 
@@ -61,12 +65,14 @@ namespace KampMVC.Controllers
             var captchaResponse = JsonConvert.DeserializeObject<CaptchaResponse>(reply);
             if (!captchaResponse.Success)
             {
-                ViewBag.ErrorMessage = "reCAPTCHA Onaylayınız!";
+                ViewBag.ErrorMessage = "Kullanıcı Adı veya Şifreniz Yanlış!";
                 return View();
             }
 
-            Context c = new Context();
-            var writeruserinfo = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+
+            //Context c = new Context();
+            //var writeruserinfo = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
+            var writeruserinfo = wm.GetWriter(p.WriterMail, p.WriterPassword);
             if (writeruserinfo != null)
             {
                 FormsAuthentication.SetAuthCookie(writeruserinfo.WriterMail, false);
@@ -75,7 +81,6 @@ namespace KampMVC.Controllers
             }
             else
             {
-                ViewBag.ErrorMessage = "Kullanıcı Adı Veya Şifre Yanlış!";
                 return RedirectToAction("WriterLogin");
             }
         }
@@ -92,13 +97,7 @@ namespace KampMVC.Controllers
         public ActionResult LogOut()
         {
             FormsAuthentication.SignOut();
-            return RedirectToAction("Index", "Login");
-        }
-
-        public ActionResult WriterLogOut()
-        {
-            FormsAuthentication.SignOut();
-            return RedirectToAction("Default", "Headings");
+            return RedirectToAction("Headings", "Default");
         }
     }
 }

@@ -17,13 +17,15 @@ namespace KampMVC.Controllers
         MessageValidator messagevalidator = new MessageValidator();
         public ActionResult Inbox()
         {
-            var messagelist = mm.GetListInbox();
+            string p = (string)Session["WriterMail"];
+            var messagelist = mm.GetListInbox(p);
             return View(messagelist);
         }
 
         public ActionResult Sendbox()
         {
-            var messagelist = mm.GetListSendbox();
+            string p = (string)Session["WriterMail"];
+            var messagelist = mm.GetListSendbox(p);
             return View(messagelist);
         }
 
@@ -49,6 +51,7 @@ namespace KampMVC.Controllers
         public ActionResult NewMessage(Message p, string button)
         {
             ValidationResult results = new ValidationResult();
+            string sender = (string)Session["WriterMail"];
             if (button == "draft")
             {
 
@@ -56,7 +59,7 @@ namespace KampMVC.Controllers
                 if (results.IsValid)
                 {
                     p.MessageDate = DateTime.Now;
-                    p.SenderMail = "furkan@gmail.com";
+                    p.SenderMail = sender;
                     p.isDraft = true;
                     mm.MessageAdd(p);
                     return RedirectToAction("Draft");
@@ -75,7 +78,7 @@ namespace KampMVC.Controllers
                 if (results.IsValid)
                 {
                     p.MessageDate = DateTime.Now;
-                    p.SenderMail = "furkan@gmail.com";
+                    p.SenderMail = sender;
                     p.isDraft = false;
                     mm.MessageAdd(p);
                     return RedirectToAction("Sendbox");

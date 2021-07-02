@@ -118,3 +118,8 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Vitrin sayfasında tüm başlıklar listelendi.
    - Başlıklara göre yazılar listelendi.
    - Yeni yazı girişi eklendi.
+### Ders 85-88
+   - Paging ve sayfalama işlemi yapıldı.
+   - Mesajlarda session yönetimi ayalarlandı.
+   - Yazar profil sayfası yapıldı.
+   - Yazr giriş işlemleri mimariye taşındı.

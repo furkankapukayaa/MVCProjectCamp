@@ -171,3 +171,7 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\vbc.exe.config
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\vbc.rsp
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\VBCSCompiler.exe
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\PagedList.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\PagedList.Mvc.dll
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\PagedList.xml
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\KampMVC\bin\PagedList.Mvc.xml
