@@ -123,3 +123,7 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Mesajlarda session yönetimi ayalarlandı.
    - Yazar profil sayfası yapıldı.
    - Yazr giriş işlemleri mimariye taşındı.
+### Ders 89-92
+   - Vitrin eklendi.
+   - Vitrin düzenlemeleri yapıldı.
+   - Yazılarda arama işlemleri yapıldı.

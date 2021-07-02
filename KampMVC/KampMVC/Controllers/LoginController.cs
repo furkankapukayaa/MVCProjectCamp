@@ -97,7 +97,7 @@ namespace KampMVC.Controllers
         public ActionResult LogOut()
         {
             FormsAuthentication.SignOut();
-            return RedirectToAction("Headings", "Default");
+            return RedirectToAction("HomePage", "Home");
         }
     }
 }
