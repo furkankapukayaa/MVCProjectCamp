@@ -133,3 +133,9 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    - Google chartlar eklendi.
    - Raporlama sayfası oluşturuldu.
    - Yetkilendirme düzenlemelerinin ilk kısmı yapıldı.
+### Ders 97-99
+   - Yetkilendirme düzenlemelerinin son kısmı yapıldı.
+   - Proje publish işlemi ve projenin canlıya taşınması işlemleri yapıldı.
+   -Veri tabanının canlıya taşınması Ve backup işlemi yapıldı.
+### Ders 100
+   100.Ders **Final** Canlı Yayını İçin [Tıklayınız](https://youtu.be/2FV6SRyL7U0)

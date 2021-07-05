@@ -2405,15 +2405,6 @@
     <Content Include="AdminLTE-3.0.4\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss" />
     <Content Include="AdminLTE-3.0.4\plugins\toastr\toastr.js.map" />
     <Content Include="AdminLTE-3.0.4\README.md" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\css\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\css\bootstrap\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\css\bootstrap\mixins\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\fonts\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\images\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\js\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\scss\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\.DS_Store" />
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\bootstrap-grid.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\bootstrap-reboot.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-19\scss\bootstrap\bootstrap.scss" />
@@ -2581,15 +2572,6 @@
     <Content Include="AdminLTE-3.0.4\logreg\scss\layouts\main.scss" />
     <Content Include="AdminLTE-3.0.4\logreg\scss\layouts\responsive.scss" />
     <Content Include="AdminLTE-3.0.4\logreg\scss\style.scss" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\css\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\css\bootstrap\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\css\bootstrap\mixins\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\fonts\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\images\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\js\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\scss\.DS_Store" />
-    <Content Include="AdminLTE-3.0.4\login-form-20\scss\bootstrap\.DS_Store" />
     <Content Include="AdminLTE-3.0.4\login-form-20\scss\bootstrap\bootstrap-grid.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-20\scss\bootstrap\bootstrap-reboot.scss" />
     <Content Include="AdminLTE-3.0.4\login-form-20\scss\bootstrap\bootstrap.scss" />
@@ -2786,8 +2768,12 @@
     <Content Include="Views\Heading\HeadingReport.cshtml" />
     <Content Include="Views\Test\SweetAlert.cshtml" />
     <Content Include="Views\Authorization\Index.cshtml" />
+    <Content Include="Views\Authorization\AddAdmin.cshtml" />
+    <Content Include="Views\Authorization\EditAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AdminLTE-3.0.4\login-form-19\fonts\" />
+    <Folder Include="AdminLTE-3.0.4\login-form-20\fonts\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>

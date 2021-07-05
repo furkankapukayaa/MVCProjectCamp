@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="small-box bg-success">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.CategoryCount</sup></h3>
+                <sup style="font-size: 20px">Toplam Kategori Sayısı</sup>
+            </div>  <a href="#" class="small-box-footer"></a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="small-box bg-red">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.Heading</sup></h3>
+                <sup style="font-size: 20px">Yazılım Kategorisine Ait Başlık Sayısı</sup>
+            </div><a href="#" class="small-box-footer"></a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="small-box bg-purple">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.Writer</sup></h3>
+                <sup style="font-size: 20px">Adında 'A' Harfi Bulunan Yazar Sayısı</sup>
+            </div><a href="#" class="small-box-footer"></a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="small-box bg-blue">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.HeadingMax</sup></h3>
+                <sup style="font-size: 20px">En Fazla Başlığa Sahip Kategori Adı</sup>
+            </div> <a href="#" class="small-box-footer"></a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="small-box bg-orange">
+            <div class="inner" style="text-align: center">
+                <br />
+                <h3><sup style="font-size: 40px">@ViewBag.Status</sup></h3> 
+                <sup style="font-size: 20px">Durumu True/False Olan Kategoriler Arasındaki Sayısal Fark</sup>
+            </div><a href="#" class="small-box-footer"></a>
+        </div>
+    </div>
+</div>

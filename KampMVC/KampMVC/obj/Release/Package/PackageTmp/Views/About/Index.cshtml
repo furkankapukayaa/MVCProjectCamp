@@ -1,0 +1,81 @@
+﻿@using EntityLayer.Concrete
+@model List<About>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{ string status = "";}
+@{ string statusButton = "";}
+
+<div>
+    <div class="row gx-5">
+        <div class="col" style="margin-top:15px; margin-bottom:5px;">
+            <h2>Hakkımızda Veri Listesi </h2>
+        </div>
+        <div class="col-7" style="margin-top:15px; margin-bottom:5px; margin-right:15px;">
+            <br />
+            <br />
+            @Html.Action("AboutPartial", "About")
+            <br />
+            <br />
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Hakkımda</th>
+        <th>Aktif veya Pasif İşlemi</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        if (item.AboutStatus == true)
+        {
+            status = "Pasif Yap";
+        }
+        if (item.AboutStatus == false)
+        {
+            status = "Aktif Yap";
+        }
+        if (item.AboutStatus == true)
+        {
+            statusButton = "btn btn-danger";
+        }
+        if (item.AboutStatus == false)
+        {
+            statusButton = "btn btn-warning";
+        }
+        <tr>
+            <th>@item.AboutID</th>
+            <td>@item.AboutDetails1</td>
+            <td><a href="/About/AktifveyaPasifDurum/@item.AboutID" class="@statusButton">@status</a></td>
+        </tr>
+    }
+</table>
+
+
+@*<h2>Hakkımızda Veri Listesi</h2>
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>Hakkımda Başlığı</th>
+            <th>Aktif Yap</th>
+            <th>Pasif Yap</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AboutID</td>
+                <td>Başlık</td>
+                <td><a href="" class="btn btn-warning">Aktif Yap</a></td>
+                <td><a href="" class="btn btn-danger">Pasif Yap</a></td>
+            </tr>
+        }
+
+    </table>
+
+
+    @Html.Action("AboutPartial","About")*@

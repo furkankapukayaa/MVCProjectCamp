@@ -1,0 +1,21 @@
+﻿@using EntityLayer.Concrete
+@model List<Content>
+
+@{
+    ViewBag.Title = "GetAllContent";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("GetAllContent", "Content", FormMethod.Post))
+{
+    <p>
+        Aranacak kelimeyi girin: @Html.TextBox("p")
+        <input type="submit" value="Ara" />
+    </p>
+}
+<script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>
+
+@foreach (var x in Model)
+{
+    <p>@x.ContentValue</p>
+}
