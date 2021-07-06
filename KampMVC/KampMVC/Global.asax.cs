@@ -12,6 +12,7 @@ namespace KampMVC
     {
         protected void Application_Start()
         {
+            //GlobalFilters.Filters.Add(new AuthorizeAttribute() { Roles = "A,B,C" });
             GlobalFilters.Filters.Add(new AuthorizeAttribute());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

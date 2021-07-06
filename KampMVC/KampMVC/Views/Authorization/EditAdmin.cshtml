@@ -9,20 +9,22 @@
 <h2>Admin Güncelleme Sayfası</h2>
 @using (Html.BeginForm("EditAdmin", "Authorization", FormMethod.Post))
 {
-    <div class="form-group">
-        @Html.HiddenFor(x => x.AdminID, new { @class = "form-control" })
-        <br />
-        @Html.Label("Admin Kullanıcı Adı")
-        @Html.TextBoxFor(x => x.AdminUsername, new { @class = "form-control" })
-        <br />
-        @Html.Label("Admin Şifre")
-        @Html.TextBoxFor(x => x.AdminPassword, new { @class = "form-control" })
-        <br /> 
-        @Html.Label("Admin Rolü")
-        @Html.TextBoxFor(x => x.AdminRole, new { @class = "form-control" })
-        <br />
-        <button class="btn btn-success">Güncelle</button>
-    </div>
+<div class="form-group">
+    @Html.HiddenFor(x => x.AdminID, new { @class = "form-control" })
+    @Html.HiddenFor(c => c.AdminPassword, new { @class = "form-control" })
+    @Html.HiddenFor(c => c.AdminUsername, new { @class = "form-control" })
+    <br />
+    @Html.Label("Admin Kullanıcı Adı")
+    @Html.TextBoxFor(x => x.AdminUsername, new { @class = "form-control" })
+    <br />
+    @Html.Label("Admin Şifre")
+    @Html.TextBoxFor(x => x.AdminPassword, new { @class = "form-control" })
+    <br />
+    @Html.Label("Admin Rolü")
+    @Html.DropDownListFor(c => c.RoleId, (List<SelectListItem>)ViewBag.valueadmin, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+</div>
 }
 
 

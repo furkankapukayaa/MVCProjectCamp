@@ -60,6 +60,7 @@
     <Compile Include="Abstract\IImageFileDAL.cs" />
     <Compile Include="Abstract\IMessageDAL.cs" />
     <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Abstract\IRoleDAL.cs" />
     <Compile Include="Abstract\ITalentCardDal.cs" />
     <Compile Include="Abstract\IWriterDAL.cs" />
     <Compile Include="Concrete\Context.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="EntityFramework\EFHeadingDAL.cs" />
     <Compile Include="EntityFramework\EFImageFileDAL.cs" />
     <Compile Include="EntityFramework\EFMessageDAL.cs" />
+    <Compile Include="EntityFramework\EFRoleDAL.cs" />
     <Compile Include="EntityFramework\EfTalentCardDal.cs" />
     <Compile Include="EntityFramework\EFWriterDAL.cs" />
     <Compile Include="Migrations\202104250254335_mig1.cs" />
@@ -136,6 +138,14 @@
     <Compile Include="Migrations\202106191205165_talentcard.designer.cs">
       <DependentUpon>202106191205165_talentcard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107061734153_add_role.cs" />
+    <Compile Include="Migrations\202107061734153_add_role.designer.cs">
+      <DependentUpon>202107061734153_add_role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107061751149_add_admin_role.cs" />
+    <Compile Include="Migrations\202107061751149_add_admin_role.designer.cs">
+      <DependentUpon>202107061751149_add_admin_role.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -194,6 +204,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106191205165_talentcard.resx">
       <DependentUpon>202106191205165_talentcard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107061734153_add_role.resx">
+      <DependentUpon>202107061734153_add_role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107061751149_add_admin_role.resx">
+      <DependentUpon>202107061751149_add_admin_role.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

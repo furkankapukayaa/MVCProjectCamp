@@ -34,3 +34,4 @@ C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\System.Web.R
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\System.Web.WebPages.xml
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\MVC-Proje-Kampi\KampMVC\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
