@@ -7491,22 +7491,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/19/2021 13:23:59</publishTime>
     </File>
     <File Include="bin/BusinessLayer.dll">
-      <publishTime>07/05/2021 12:11:01</publishTime>
+      <publishTime>07/06/2021 21:25:14</publishTime>
     </File>
     <File Include="bin/BusinessLayer.dll.config">
       <publishTime>06/19/2021 13:23:57</publishTime>
     </File>
     <File Include="bin/BusinessLayer.pdb">
-      <publishTime>07/05/2021 12:11:01</publishTime>
+      <publishTime>07/06/2021 21:25:14</publishTime>
     </File>
     <File Include="bin/DataAccessLayer.dll">
-      <publishTime>07/05/2021 12:11:01</publishTime>
+      <publishTime>07/06/2021 21:25:14</publishTime>
     </File>
     <File Include="bin/DataAccessLayer.dll.config">
       <publishTime>06/19/2021 13:23:58</publishTime>
     </File>
     <File Include="bin/DataAccessLayer.pdb">
-      <publishTime>07/05/2021 12:11:01</publishTime>
+      <publishTime>07/06/2021 21:25:14</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>06/19/2021 13:23:59</publishTime>
@@ -7515,22 +7515,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/19/2021 13:23:59</publishTime>
     </File>
     <File Include="bin/EntityLayer.dll">
-      <publishTime>07/05/2021 12:11:01</publishTime>
+      <publishTime>07/06/2021 21:25:13</publishTime>
     </File>
     <File Include="bin/EntityLayer.dll.config">
       <publishTime>06/19/2021 13:23:58</publishTime>
     </File>
     <File Include="bin/EntityLayer.pdb">
-      <publishTime>07/05/2021 12:11:01</publishTime>
+      <publishTime>07/06/2021 21:25:13</publishTime>
     </File>
     <File Include="bin/FluentValidation.dll">
       <publishTime>06/19/2021 13:24:00</publishTime>
     </File>
     <File Include="bin/KampMVC.dll">
-      <publishTime>07/05/2021 12:15:50</publishTime>
+      <publishTime>07/06/2021 21:25:16</publishTime>
     </File>
     <File Include="bin/KampMVC.pdb">
-      <publishTime>07/05/2021 12:15:50</publishTime>
+      <publishTime>07/06/2021 21:25:16</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>06/19/2021 13:24:00</publishTime>
@@ -7845,10 +7845,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/05/2021 11:54:52</publishTime>
     </File>
     <File Include="Views/Authorization/EditAdmin.cshtml">
-      <publishTime>07/05/2021 12:04:14</publishTime>
+      <publishTime>07/06/2021 20:51:35</publishTime>
     </File>
     <File Include="Views/Authorization/Index.cshtml">
-      <publishTime>07/05/2021 12:02:47</publishTime>
+      <publishTime>07/06/2021 21:00:29</publishTime>
     </File>
     <File Include="Views/Category/AddCategory.cshtml">
       <publishTime>06/19/2021 13:23:59</publishTime>
