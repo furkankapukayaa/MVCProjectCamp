@@ -140,4 +140,6 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
 ### Ders 100
    100.Ders **Final** Canlı Yayını İçin [Tıklayınız](https://youtu.be/2FV6SRyL7U0)
 ### Kamp Tamamlandı
-<img src="sertifika.jpg"> 
+[Projenin Websitesi](http://mvcsozluk-001-site1.itempurl.com/) <br>
+[Projenin Detaylı Videosu](https://youtu.be/44ZLJxbF0Yo) <br>
+<img src="sertifika.jpg">
