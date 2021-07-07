@@ -52,11 +52,9 @@
                             <div class="row">
                                 @foreach (var item in Model)
                                 {
-
-
                                     <div class="col-sm-2">
                                         <a href="@item.ImagePath" data-toggle="lightbox" data-title="@item.ImageName" data-gallery="gallery">
-                                            <img src="@item.ImagePath" class="img-fluid mb-2" alt="@item.ImageName"  width="50%"/>
+                                        <img src="@item.ImagePath" class="img-fluid mb-2" alt="@item.ImageName" width="50%" />
                                         </a>
                                     </div>
                                 }
@@ -67,6 +65,8 @@
             </div>
         </div><!-- /.container-fluid -->
     </section>
+    <a href="/Gallery/ImageAdd/" class="btn btn-info">Yeni Fotoğraf Ekle</a>
+
     <!-- ./wrapper -->
     <!-- jQuery -->
     <script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>

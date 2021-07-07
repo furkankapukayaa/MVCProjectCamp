@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,6 +41,21 @@ namespace MvcProjeKampi.Controllers
             ViewBag.result10 = result10;
 
             return View(cardValues);
+        }
+
+        [HttpGet]
+        public ActionResult EditTalent(int id)
+        {
+            id = 1;
+            var talentvalue = talentCardManager.GetById(id);
+            return View(talentvalue);
+        }
+
+        [HttpPost]
+        public ActionResult EditTalent(TalentCard p)
+        {
+            talentCardManager.TalentCardUpdate(p);
+            return RedirectToAction("Index");
         }
     }
 }

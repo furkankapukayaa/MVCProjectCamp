@@ -1,0 +1,94 @@
+﻿@model EntityLayer.Concrete.TalentCard
+
+@{
+    ViewBag.Title = "EditTalent";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Profil Kartı Güncelleme Sayfası</h2>
+@using (Html.BeginForm("EditTalent", "TalentCard", FormMethod.Post))
+{
+<div class="form-group">
+    @Html.HiddenFor(x => x.CardId)
+    <br>
+    @Html.Label("Ad")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    @Html.Label("Soyad")
+    @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" })
+    <br />
+    @Html.Label("Açıklama")
+    @Html.TextBoxFor(x => x.Text, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 1")
+    @Html.TextBoxFor(x => x.Skill, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 1 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 2")
+    @Html.TextBoxFor(x => x.Skill2, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 2 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint2, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 3")
+    @Html.TextBoxFor(x => x.Skill3, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 3 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint3, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 4")
+    @Html.TextBoxFor(x => x.Skill4, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 4 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint4, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 5")
+    @Html.TextBoxFor(x => x.Skill5, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 5 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint5, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 6")
+    @Html.TextBoxFor(x => x.Skill6, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 6 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint6, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 7")
+    @Html.TextBoxFor(x => x.Skill7, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 7 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint7, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 8")
+    @Html.TextBoxFor(x => x.Skill8, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 8 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint8, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 9")
+    @Html.TextBoxFor(x => x.Skill9, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 9 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint9, new { @class = "form-control" })
+    <br />
+    <br />
+    @Html.Label("Yetenek 10")
+    @Html.TextBoxFor(x => x.Skill10, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek 10 Puanı")
+    @Html.TextBoxFor(x => x.SkillPoint10, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+</div>
+}

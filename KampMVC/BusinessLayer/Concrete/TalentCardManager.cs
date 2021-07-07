@@ -25,7 +25,7 @@ namespace BusinessLayer.Concrete
 
         public TalentCard GetById(int id)
         {
-            throw new NotImplementedException();
+            return _talentcardDal.Get(x => x.CardId == 1);
         }
 
         public void TalentCardAdd(TalentCard talentCard)
@@ -35,12 +35,12 @@ namespace BusinessLayer.Concrete
 
         public void TalentCardDelete(TalentCard talentCard)
         {
-            throw new NotImplementedException();
+            _talentcardDal.Delete(talentCard);
         }
 
         public void TalentCardUpdate(TalentCard talentCard)
         {
-            throw new NotImplementedException();
+            _talentcardDal.Update(talentCard);
         }
     }
 }
