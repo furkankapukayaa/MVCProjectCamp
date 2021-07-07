@@ -58,7 +58,7 @@ namespace KampMVC.Controllers
         public ActionResult WriterLogin(Writer p)
         {
             var response = Request["g-recaptcha-response"];
-            const string secret = "6LfHFTwbAAAAAB53V5ZcixAgVCi2aTXIuF-eLxF9";
+            const string secret = "6LdheYAbAAAAAFFm4fPn4rIdEOyqsO3aIxHzLqiD";
             var client = new WebClient();
 
             var reply = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secret, response));

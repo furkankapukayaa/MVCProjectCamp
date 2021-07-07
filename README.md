@@ -139,3 +139,5 @@ Kamp Discord Sunucusu(Yardım & Destek) İçin [Tıklayınız](https://discord.g
    -Veri tabanının canlıya taşınması Ve backup işlemi yapıldı.
 ### Ders 100
    100.Ders **Final** Canlı Yayını İçin [Tıklayınız](https://youtu.be/2FV6SRyL7U0)
+### Kamp Tamamlandı
+<img src="sertifika.jpg"> 
